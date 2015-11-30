@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D5883F49B510B80D99EF31 /* Pods_ParseCustomLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8735EB79D1C0720BFF10FE0 /* Pods_ParseCustomLogin.framework */; };
+		D50869E01C0A5F72003C6943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50869DF1C0A5F72003C6943 /* AppDelegate.swift */; };
+		D50869E51C0A5F72003C6943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50869E31C0A5F72003C6943 /* Main.storyboard */; };
+		D50869E71C0A5F72003C6943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50869E61C0A5F72003C6943 /* Assets.xcassets */; };
+		D50869EA1C0A5F72003C6943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50869E81C0A5F72003C6943 /* LaunchScreen.storyboard */; };
+		D50869F51C0A5F73003C6943 /* ParseCustomLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50869F41C0A5F73003C6943 /* ParseCustomLoginTests.swift */; };
+		D5086A001C0A5F73003C6943 /* ParseCustomLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50869FF1C0A5F73003C6943 /* ParseCustomLoginUITests.swift */; };
+		D509320E1C0A62EB00D4A217 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D509320D1C0A62EB00D4A217 /* Pacifico.ttf */; };
+		D50932131C0A637500D4A217 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50932111C0A637500D4A217 /* LoginViewController.swift */; };
+		D50932141C0A637500D4A217 /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50932121C0A637500D4A217 /* SingupViewController.swift */; };
+		D50932161C0A63F200D4A217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50932151C0A63F200D4A217 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50869F11C0A5F73003C6943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50869D41C0A5F72003C6943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50869DB1C0A5F72003C6943;
+			remoteInfo = ParseCustomLogin;
+		};
+		D50869FC1C0A5F73003C6943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50869D41C0A5F72003C6943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50869DB1C0A5F72003C6943;
+			remoteInfo = ParseCustomLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2E6C919E4EE3CCF9DD89E0 /* Pods-ParseCustomLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseCustomLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseCustomLogin/Pods-ParseCustomLogin.release.xcconfig"; sourceTree = "<group>"; };
+		C80BAE8A49039E97BF6DEEE1 /* Pods-ParseCustomLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseCustomLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseCustomLogin/Pods-ParseCustomLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		C8735EB79D1C0720BFF10FE0 /* Pods_ParseCustomLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseCustomLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50869DC1C0A5F72003C6943 /* ParseCustomLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseCustomLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50869DF1C0A5F72003C6943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50869E41C0A5F72003C6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50869E61C0A5F72003C6943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50869E91C0A5F72003C6943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50869EB1C0A5F72003C6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50869F01C0A5F73003C6943 /* ParseCustomLogin.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseCustomLogin.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50869F41C0A5F73003C6943 /* ParseCustomLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCustomLoginTests.swift; sourceTree = "<group>"; };
+		D50869F61C0A5F73003C6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50869FB1C0A5F73003C6943 /* ParseCustomLogin.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseCustomLogin.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50869FF1C0A5F73003C6943 /* ParseCustomLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCustomLoginUITests.swift; sourceTree = "<group>"; };
+		D5086A011C0A5F73003C6943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D509320D1C0A62EB00D4A217 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		D50932111C0A637500D4A217 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D50932121C0A637500D4A217 /* SingupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		D50932151C0A63F200D4A217 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50869D91C0A5F72003C6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D5883F49B510B80D99EF31 /* Pods_ParseCustomLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869ED1C0A5F73003C6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869F81C0A5F73003C6943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A96800E2B6365A7EF0B4D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8735EB79D1C0720BFF10FE0 /* Pods_ParseCustomLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A575FA0259B021DCA6457657 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C80BAE8A49039E97BF6DEEE1 /* Pods-ParseCustomLogin.debug.xcconfig */,
+				1A2E6C919E4EE3CCF9DD89E0 /* Pods-ParseCustomLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D50869D31C0A5F72003C6943 = {
+			isa = PBXGroup;
+			children = (
+				D50869DE1C0A5F72003C6943 /* ParseCustomLogin */,
+				D50869F31C0A5F73003C6943 /* ParseCustomLoginTests */,
+				D50869FE1C0A5F73003C6943 /* ParseCustomLoginUITests */,
+				D50869DD1C0A5F72003C6943 /* Products */,
+				A575FA0259B021DCA6457657 /* Pods */,
+				8A96800E2B6365A7EF0B4D3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D50869DD1C0A5F72003C6943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50869DC1C0A5F72003C6943 /* ParseCustomLogin.app */,
+				D50869F01C0A5F73003C6943 /* ParseCustomLogin.xctest */,
+				D50869FB1C0A5F73003C6943 /* ParseCustomLogin.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50869DE1C0A5F72003C6943 /* ParseCustomLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D50869EB1C0A5F72003C6943 /* Info.plist */,
+				D50932151C0A63F200D4A217 /* ViewController.swift */,
+				D50932111C0A637500D4A217 /* LoginViewController.swift */,
+				D50932121C0A637500D4A217 /* SingupViewController.swift */,
+				D509320D1C0A62EB00D4A217 /* Pacifico.ttf */,
+				D50869DF1C0A5F72003C6943 /* AppDelegate.swift */,
+				D50869E31C0A5F72003C6943 /* Main.storyboard */,
+				D50869E61C0A5F72003C6943 /* Assets.xcassets */,
+				D50869E81C0A5F72003C6943 /* LaunchScreen.storyboard */,
+			);
+			path = ParseCustomLogin;
+			sourceTree = "<group>";
+		};
+		D50869F31C0A5F73003C6943 /* ParseCustomLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D50869F41C0A5F73003C6943 /* ParseCustomLoginTests.swift */,
+				D50869F61C0A5F73003C6943 /* Info.plist */,
+			);
+			path = ParseCustomLoginTests;
+			sourceTree = "<group>";
+		};
+		D50869FE1C0A5F73003C6943 /* ParseCustomLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D50869FF1C0A5F73003C6943 /* ParseCustomLoginUITests.swift */,
+				D5086A011C0A5F73003C6943 /* Info.plist */,
+			);
+			path = ParseCustomLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50869DB1C0A5F72003C6943 /* ParseCustomLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5086A041C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLogin" */;
+			buildPhases = (
+				A7BF2BF4622E79F3A7DB09B7 /* Check Pods Manifest.lock */,
+				D50869D81C0A5F72003C6943 /* Sources */,
+				D50869D91C0A5F72003C6943 /* Frameworks */,
+				D50869DA1C0A5F72003C6943 /* Resources */,
+				E360F73E6B84E88521815E83 /* Embed Pods Frameworks */,
+				3CB381AB17C7F613B4E1D575 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseCustomLogin;
+			productName = ParseCustomLogin;
+			productReference = D50869DC1C0A5F72003C6943 /* ParseCustomLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D50869EF1C0A5F73003C6943 /* ParseCustomLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5086A071C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLoginTests" */;
+			buildPhases = (
+				D50869EC1C0A5F73003C6943 /* Sources */,
+				D50869ED1C0A5F73003C6943 /* Frameworks */,
+				D50869EE1C0A5F73003C6943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50869F21C0A5F73003C6943 /* PBXTargetDependency */,
+			);
+			name = ParseCustomLoginTests;
+			productName = ParseCustomLoginTests;
+			productReference = D50869F01C0A5F73003C6943 /* ParseCustomLogin.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D50869FA1C0A5F73003C6943 /* ParseCustomLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5086A0A1C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLoginUITests" */;
+			buildPhases = (
+				D50869F71C0A5F73003C6943 /* Sources */,
+				D50869F81C0A5F73003C6943 /* Frameworks */,
+				D50869F91C0A5F73003C6943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50869FD1C0A5F73003C6943 /* PBXTargetDependency */,
+			);
+			name = ParseCustomLoginUITests;
+			productName = ParseCustomLoginUITests;
+			productReference = D50869FB1C0A5F73003C6943 /* ParseCustomLogin.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50869D41C0A5F72003C6943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Christopher Page";
+				TargetAttributes = {
+					D50869DB1C0A5F72003C6943 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D50869EF1C0A5F73003C6943 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D50869DB1C0A5F72003C6943;
+					};
+					D50869FA1C0A5F73003C6943 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D50869DB1C0A5F72003C6943;
+					};
+				};
+			};
+			buildConfigurationList = D50869D71C0A5F72003C6943 /* Build configuration list for PBXProject "ParseCustomLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50869D31C0A5F72003C6943;
+			productRefGroup = D50869DD1C0A5F72003C6943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50869DB1C0A5F72003C6943 /* ParseCustomLogin */,
+				D50869EF1C0A5F73003C6943 /* ParseCustomLoginTests */,
+				D50869FA1C0A5F73003C6943 /* ParseCustomLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50869DA1C0A5F72003C6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50869EA1C0A5F72003C6943 /* LaunchScreen.storyboard in Resources */,
+				D50869E71C0A5F72003C6943 /* Assets.xcassets in Resources */,
+				D509320E1C0A62EB00D4A217 /* Pacifico.ttf in Resources */,
+				D50869E51C0A5F72003C6943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869EE1C0A5F73003C6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869F91C0A5F73003C6943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB381AB17C7F613B4E1D575 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseCustomLogin/Pods-ParseCustomLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BF2BF4622E79F3A7DB09B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E360F73E6B84E88521815E83 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParseCustomLogin/Pods-ParseCustomLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50869D81C0A5F72003C6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50932131C0A637500D4A217 /* LoginViewController.swift in Sources */,
+				D50932141C0A637500D4A217 /* SingupViewController.swift in Sources */,
+				D50932161C0A63F200D4A217 /* ViewController.swift in Sources */,
+				D50869E01C0A5F72003C6943 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869EC1C0A5F73003C6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50869F51C0A5F73003C6943 /* ParseCustomLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50869F71C0A5F73003C6943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5086A001C0A5F73003C6943 /* ParseCustomLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50869F21C0A5F73003C6943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50869DB1C0A5F72003C6943 /* ParseCustomLogin */;
+			targetProxy = D50869F11C0A5F73003C6943 /* PBXContainerItemProxy */;
+		};
+		D50869FD1C0A5F73003C6943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50869DB1C0A5F72003C6943 /* ParseCustomLogin */;
+			targetProxy = D50869FC1C0A5F73003C6943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50869E31C0A5F72003C6943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50869E41C0A5F72003C6943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50869E81C0A5F72003C6943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50869E91C0A5F72003C6943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5086A021C0A5F73003C6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5086A031C0A5F73003C6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5086A051C0A5F73003C6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80BAE8A49039E97BF6DEEE1 /* Pods-ParseCustomLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParseCustomLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLogin;
+				PRODUCT_NAME = ParseCustomLogin;
+			};
+			name = Debug;
+		};
+		D5086A061C0A5F73003C6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2E6C919E4EE3CCF9DD89E0 /* Pods-ParseCustomLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParseCustomLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLogin;
+				PRODUCT_NAME = ParseCustomLogin;
+			};
+			name = Release;
+		};
+		D5086A081C0A5F73003C6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParseCustomLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLoginTests;
+				PRODUCT_NAME = ParseCustomLogin;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseCustomLogin.app/ParseCustomLogin";
+			};
+			name = Debug;
+		};
+		D5086A091C0A5F73003C6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParseCustomLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLoginTests;
+				PRODUCT_NAME = ParseCustomLogin;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseCustomLogin.app/ParseCustomLogin";
+			};
+			name = Release;
+		};
+		D5086A0B1C0A5F73003C6943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParseCustomLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLoginUITests;
+				PRODUCT_NAME = ParseCustomLogin;
+				TEST_TARGET_NAME = ParseCustomLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5086A0C1C0A5F73003C6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParseCustomLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpage.ParseCustomLoginUITests;
+				PRODUCT_NAME = ParseCustomLogin;
+				TEST_TARGET_NAME = ParseCustomLogin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50869D71C0A5F72003C6943 /* Build configuration list for PBXProject "ParseCustomLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5086A021C0A5F73003C6943 /* Debug */,
+				D5086A031C0A5F73003C6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5086A041C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5086A051C0A5F73003C6943 /* Debug */,
+				D5086A061C0A5F73003C6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5086A071C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5086A081C0A5F73003C6943 /* Debug */,
+				D5086A091C0A5F73003C6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5086A0A1C0A5F73003C6943 /* Build configuration list for PBXNativeTarget "ParseCustomLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5086A0B1C0A5F73003C6943 /* Debug */,
+				D5086A0C1C0A5F73003C6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50869D41C0A5F72003C6943 /* Project object */;
+}
